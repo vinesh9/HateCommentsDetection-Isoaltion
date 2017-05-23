@@ -1,0 +1,70 @@
+<html>
+<head>
+<link rel="stylesheet" href="w3.css" />
+</head>
+<style>
+nav{
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+input{
+font-size:14px;
+font-family:cursive;
+}
+</style>
+<body class="w3-container">
+<nav class="w3-container w3-display-topright w3-gray w3-round-xxlarge w3-border-top w3-border-bottom" style="height:30px;margin-right:1cm;display:inline;word-spacing:20px;margin-top:.2cm;">
+<a href="index.html" class="w3-hover-white w3-medium" >Home</a>
+<a href="sreg.html" class="w3-hover-white w3-medium" >Register</a>
+<a href="auLogin.jsp" class="w3-hover-white w3-medium" >Admin</a>
+<a href="userLogin.jsp" class="w3-hover-white w3-medium">UserLogin</a>
+</nav>
+<header class="w3-container w3-cyan w3-border w3-round-xlarge" style="height:120px;" >
+<div style="float:left;">
+<img src="./images/logo.jpg" class="w3-round-xxlarge" />
+</div>
+<div style="float:left;width:200px;height:200px;margin-left:2cm;">
+<img src="./images/C1.png" style="width:820px;height:100px;margin-top:.01cm;" class="w3-round-xlarge" />
+</div>
+</header>
+<section class=" w3-container w3-border w3-gray w3-round-large" >
+<div style="float:left;border:0px dashed white;width:800px;height:300px;margin-bottom:.1cm;">
+<figure>
+<img class="w3-center w3-circle w3-display-left" src="./images/main2.png" style="margin-left:2cm;width:40%;height:40%;"/>
+</figure>
+</div>
+<div class="w3-panel  w3-display-right" style="width:32%;margin-right:1cm;margin-top:1.4cm;">
+<fieldset style="height:365px;border:2px dashed white;" class="w3-cyan">
+<legend class="w3-cyan w3-round-large w3-card-4 w3-text-white"  >USER REG. FORM</legend>
+<form action=sreg.jsp>
+<table class="" style='color:white;width:330px;'>
+<tr><th><input type=text name=uid required=required class="w3-animate-input" placeholder="User_ID" /></th></tr>
+<tr><th></th></tr>
+<tr><th><input type=text name=uname required=required class="w3-animate-input" placeholder="UserName"/></th></tr>
+<tr><th></th><th></th></tr>
+<tr><th><input type=password name=upwd placeholder="Password" required=required class="w3-animate-input"/></th></tr>
+<tr><th></th><th></th></tr>
+<tr><th><input type=text name=cont maxlength=10 placeholder="Contact" required=required class="w3-animate-input"/></th></tr>
+<tr><th></th><th></th></tr>
+<tr><th><input type=email name=email placeholder="Email_Id" required=required class="w3-animate-input"/></th></tr>
+<tr><th></th><th></th></tr>
+<tr><th><input type=radio name=gen value='Male' required=required>Male &nbsp;&nbsp;&nbsp;<input type=radio name=gen value='Female'>Female &nbsp;&nbsp;&nbsp;</th></tr>
+<tr><th><textarea name=addr placeholder="Address" rows=5 cols=15 required=required class="w3-animate-input" style="font-family:cursive;"></textarea></th></tr>
+<tr><th></th><th></th></tr>
+<tr><th><input type=submit name=s value='Register'>&nbsp;&nbsp;<input type=reset name=s value='Clear'></th></tr>
+</table>
+</form>
+</fieldset>
+</div>
+<div class="w3-container" >
+<img src="./images/social.jpg" style="height:120px;" class="w3-circle" />
+</div>
+</section>
+<footer class="w3-container w3-cyan w3-round-xxlarge" style="">
+<div class=" w3-width-300 w3-round-large w3-hover-white w3-text-hover-blue w3-center">
+<span style="font-size:18px;font-family:'Comic Sans MS';color:white;margin-top:1cm;">
+Developed at Adroit Info com India Pvt Ltd.
+</span>
+</div>
+</footer>
+</body>
+</html>
